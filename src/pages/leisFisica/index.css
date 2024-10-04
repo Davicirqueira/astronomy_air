@@ -1,0 +1,62 @@
+.leiFisic{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding-top: 5%;
+
+}
+
+.leiFisic p{
+
+    font-size: 200%;
+
+}
+
+.leiFisic .contTwo{
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 5%;
+
+}
+
+.leiFisic .contTwo section{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.leiFisic .contTwo section div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232b4e;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.leiFisic .contTwo section a{
+
+    text-decoration: none;
+    font-size: 150%;
+
+}
+
+.leiFisic .contTwo section div:hover{
+
+    background: linear-gradient(0deg, #17267a, #17267a);
+    box-shadow: inset 0px 1px 0px 0px #152fc0,
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px #152fc0,
+    0px 0px 180px 0px #3f5cbd;
+    transform: translateY(-2px);
+    
+}
+
