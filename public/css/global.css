@@ -2,31 +2,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #000;
     color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div{
+body{
+
+    /* background-image: url('/public/assets/images/espacoSideral.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #000;
+
+}
+
+.back{
+
     display: flex;
-    flex-direction: column;
-    gap: 100px;
-    align-items: center;
-    padding-top: 10%;
-}
-
-p{
+    font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200%;
-}
-
-a{
+    padding-left: 2%;
+    margin-top: 3%;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
+
 }
 
-a:hover{
+.back:hover{
 
-    color: #14344e;
-    font-size: 200%;
+    color: #232b4e;
+    
 }
