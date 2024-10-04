@@ -1,0 +1,40 @@
+.mecClass{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 5%;
+
+}  
+
+.mecClass div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.mecClass div img{
+
+    width: 400px;
+    border-radius: 12px;
+
+}
+
+.mecClass section{
+
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-left: 32%;
+}
+
+.mecClass section p{
+
+    text-align: center;
+    line-height: 150%;
+    
+}
+
