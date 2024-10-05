@@ -1,0 +1,33 @@
+div {
+
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-bottom: 5%;
+
+}
+
+div section img{
+
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+div main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 3%;
+
+}
+
+div main p{
+
+    text-align: start;
+    line-height: 160%;
+
+}

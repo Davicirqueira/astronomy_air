@@ -1,9 +1,15 @@
 div{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 6%;
+}
+
+img{
+
+    border-radius: 10px;
+
 }
 
 p{
